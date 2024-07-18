@@ -153,6 +153,11 @@ img{
     width: 746px;
     margin-left: auto;
 }
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 40px 0;
+}
 /* utils 通用 */
 .container{
     width: 1296px;
@@ -197,6 +202,9 @@ img{
 }
 .align-item-center{
     align-items: center;
+}
+.text-align-center{
+    text-align: center;
 }
 .mb-4{
     margin-bottom: 16px;
