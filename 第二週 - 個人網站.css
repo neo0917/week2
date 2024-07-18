@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    font-family: "Bruno Ace SC", sans-serif;
+    line-height: 1.5;
+}
+/* --- */
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* layout */
+.header{
+    background: #000;
+    color:#D1D1D1;
+    padding: 40px 0;
+}
+.nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* component小元件 */
+.btn{
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+.btn_light{
+    background: #fff;
+    color: #000;
+}
+.btn_dark{
+    background: #000;
+    color: #fff;
+}
+
+/* page內頁 */
+.banner{
+    background: #000;
+    color: #fff;
+}
+.banner_text{
+    padding-left: 24px;
+}
+.banner_text_h1{
+    display: block;
+    text-align: right;
+}
+.intro{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 160px 0;
+}
+.intro_desc{
+    width: 526px;
+    padding-right: 24px;
+}
+.intro_text{
+    margin: 35px 0 32px 0;
+}
+.intro_img{
+   width: 746px;
+   justify-content: space-between; 
+}
+.about-list{
+    width: 636px;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.about-list li{
+    width: calc(50% - 12px);
+    box-shadow: 4px 4px 4px 0px #00000014;
+}
+.about-desc{
+    width: 526px;
+    padding: 160px 0 ;
+}
+.about-title{
+    margin-bottom: 36px;
+}
+.contact{
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    color: #fff;
+    padding: 96px 0;
+}
+.contact a{
+    display: block;
+}
+.social-link{
+    border-radius: 40px;
+}
+.social-link :hover{
+    box-shadow: 0px 0px 16px 3px #9094FFE5;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+.project{
+    padding: 160px;
+}
+.project-title{
+    width: 746px;
+    margin-left: auto;
+}
+/* utils 通用 */
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.h1{
+    font-size: 128px;
+}
+.h2{
+    font-size: 64px;
+}
+.fs-1{
+    font-size: 32px;
+}
+.fs-2{
+    font-size: 24px;
+}
+.fs-3{
+    font-size: 20px;
+}
+.text-primary{
+    color: #00ffa3;
+}
+.d-flex{
+    display: flex;
+}
+.fiex-column{
+    flex-direction: column;
+
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-end{
+    justify-content: end;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.align-item-start{
+    align-items: start;
+}
+.align-item-center{
+    align-items: center;
+}
+.mb-4{
+    margin-bottom: 16px;
+}
+.mb-6{
+    margin-bottom: 24px;
+}
+.mr-6{
+    margin-right: 24px;
+}
+.my-1{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.mx-5{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mx-6{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.mt-28{
+    margin-top: 28px;
+}
+
+
+
