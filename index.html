@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap"
       rel="stylesheet"
     />
+
   </head>
 
   <body>
@@ -34,11 +35,13 @@
           alt="people"
         />
         <div class="banner_text">
-          <h1 class="h2">
-            Hi <br />
-            I’m a front-end developer
-            <span class="text-primary h1 banner_text_h1">William</span>
-          </h1>
+          <div data-aos="fade-right" data-aos-duration="1500">
+            <h1 class="h2">
+              Hi <br />
+              I’m a front-end developer
+              <span class="text-primary h1 banner_text_h1">William</span>
+            </h1>
+          </div>
           <div class="d-flex justify-content-end">
             <a href="#" class="btn btn_light"
               >contact me<img
@@ -82,18 +85,26 @@
               alt="sparkle"
             />
           </li>
+          <div data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">
           <li>
             <img
               src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/photographer.png?raw=true"
               alt="photographer"
             />
           </li>
+        </div>
+          <div data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">
           <li>
             <img
               src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/people-2.png?raw=true"
               alt="people-2"
             />
           </li>
+        </div>
         </ul>
       </div>
     </div>
@@ -103,22 +114,22 @@
         class="container d-flex justify-content-space-between align-item-center"
       >
         <ol class="about-list d-flex">
-          <li>
+          <li data-aos="fade-up" data-aos-delay="400">
             <p>01</p>
             <h3 class="my-1">Attention to Detail</h3>
             <p>Meticulous code analysis and optimization.</p>
           </li>
-          <li>
+          <li data-aos="fade-up" data-aos-delay="500">
             <p>02</p>
             <h3 class="my-1">Adaptability</h3>
             <p>Swift learning of new technologies.</p>
           </li>
-          <li>
+          <li data-aos="fade-up" data-aos-delay="600">
             <p>03</p>
             <h3 class="my-1">Problem Solver</h3>
             <p>Identifying and resolving issues.</p>
           </li>
-          <li>
+          <li data-aos="fade-up" data-aos-delay="700">
             <p>04</p>
             <h3 class="my-1">Player</h3>
             <p>Collaborates and shares ideas.</p>
@@ -166,7 +177,8 @@
               blogs, and landing pages. I take pride in creating clean,
               efficient, and user-friendly code.
             </p>
-            <a href="#" class="btn btn_dark">SEE MORE<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/arrow_outward-white.png?raw=true" alt="arrow_outward-white" /></a>
+            <a href="#" class="btn btn_dark" data-aos="fade-left" data-aos-delay="300"
+            >SEE MORE<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/arrow_outward-white.png?raw=true" alt="arrow_outward-white" /></a>
           </div>
           </div>
           <div class="d-flex mt-28">
@@ -190,6 +202,10 @@
       </div>
     </div>
     
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+ AOS.init();
+</script>
 </body>
 </html>
